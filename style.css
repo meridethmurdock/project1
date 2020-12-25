@@ -1,0 +1,383 @@
+
+@font-face { font-family: Apple; src: url('HomemadeApple-Regular.ttf'); } 
+@font-face { font-family: Apple; font-weight: bold; src: url('HomemadeApple-Regular.ttf');}
+
+
+
+body {
+  background-image: url(pictures\ for\ meme/background1.jpg);
+  background-size: cover;
+  background-size: 100%;
+  /* width: 100%; */
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.apple-font {
+    font-family: Apple, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(238, 230, 221);
+  height: 7rem;
+}
+
+.navbar-title {
+  font-family: Apple, san-serif;
+  font-size: 2.0rem;
+  width: 25%;
+  align-self: center;
+  padding-left: 7rem;
+}
+
+.navbar-items {
+  font-size: 1.5rem;
+  font-family: Apple, san-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35%;
+  padding: rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown-hidden {
+  display: none; 
+}
+
+.dropdown:hover 
+.dropdown-hidden {
+  display: block; 
+  flex-direction: column;
+  position: absolute;
+  background-color: #dad2c8;
+  min-width: 260px;
+  box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 1.5rem;
+  
+}
+
+.dropdown-hidden:hover {
+  color: red;
+}
+
+.border {
+  padding: 1.5rem;
+  border: 1px solid gray;
+}
+
+.border:hover {
+  background-color: rgb(231, 225, 225);
+}
+
+.border-line {
+  border-top: white 2px solid
+}
+
+.wallpaper-apples {
+  width: 100%;
+  height: 4rem;
+  background-image: url(pictures\ for\ meme/applewallpaper.jpg);
+  background-size: cover;
+}
+
+.featured {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  font-family: apple, sans-serif;
+  color: rgb(80, 75, 75)
+}
+
+.card {
+  width: 45%;
+  display: flex;
+  border: 4px rgb(189, 134, 134) dotted;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: rgb(228, 225, 207);
+  box-shadow: gray 8px 6px 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.card-img-top {
+  width: 40%;
+  height: 1%;
+  margin: auto;
+  border: 2px gray solid;
+  box-shadow: gray 1px 8px 10px;
+}
+
+.card-body {
+  padding: 2rem 4rem;
+}
+
+.card-title {
+font-family: Apple, sans-serif;
+font-size: 2rem;
+margin: 0;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+}
+
+.recipe-link {
+font-weight: 500;
+margin-top: 3rem;
+display: flex;
+font-size: 1.1rem;
+letter-spacing: 2px;
+justify-content: center;
+}
+
+.end-of-featured {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-size: 2rem;
+  font-family: apple, sans-serif;
+  margin: auto;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+
+.title-about {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-family: apple, sans-serif;
+  color: rgb(80, 75, 75)
+}
+
+.meme-picture-1 {
+  width: 50%;
+  float: right;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.meme-picture-2 {
+  width: 55%;
+  float: left;
+  padding-right: 3rem;
+}
+
+.meme-picture-3 {
+  width: 49%;
+  float: right;
+  margin-top: 2.3rem;
+
+}
+
+.meme-picture-4 {
+  width: 50%;
+  margin-top: 2rem;
+
+
+}
+
+.meme-text-intro {
+  width: 50%;
+}
+
+.meme-text {
+  width: 50%;
+  margin: 1rem auto;
+  line-height: 25px;
+  padding: 4rem;
+  padding-top: 3rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(228, 225, 207);
+  box-shadow: gray 8px 6px 10px;
+  border: 4px rgb(189, 134, 134) dotted;
+}
+
+.right {
+  float: right;
+}
+
+.footer {
+  width: 100%;
+  padding: 5rem;
+  background-color: rgb(134, 134, 112);
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-left {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.footer-right {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.logos {
+  max-width: 20%;
+  height: auto;
+}
+
+
+
+.recipe-body {
+  width: 50%;
+  margin: 1rem auto;
+  line-height: 25px;
+  padding: 4rem;
+  padding-top: 3rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(228, 225, 207);
+  box-shadow: gray 8px 6px 10px;
+  border: 4px rgb(189, 134, 134) dotted;
+}
+
+.recipe-title {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  font-family: apple, sans-serif;
+  color: rgb(80, 75, 75)
+}
+
+.recipe-title-description {
+font-weight: 500;
+margin-top: 3rem;
+display: flex;
+letter-spacing: 1px;
+width: 70%;
+margin: auto;
+text-align: center;
+
+/* overflow: auto; */
+}
+
+.img-and-ingreds {
+  display: flex;
+  box-shadow: rgb(226, 222, 222) 1px 6px 10px;
+  background-color: rgba(240, 238, 228, 0.979);
+  padding: 2rem;
+  border: 1px rgb(119, 50, 50) solid;
+  margin-top: 3rem;
+
+}
+
+.recipe-picture {
+  width: 50%;
+  height: 1%;
+  padding: 1rem;
+  padding-right: 2rem;
+  /* padding-left: 2rem; */
+  vertical-align: bottom;
+  align-self: center;
+}
+
+.recipe-ingredients {
+  padding-left: 3rem;
+  line-height: 2.5rem;
+  list-style: square;
+}
+
+.prep-time {
+  color: gray;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  margin-left: -1rem;
+}
+
+.step-title {
+  font-family: apple, sans-serif;
+  padding: 1rem;
+  padding-top: 1rem;
+}
+
+.recipe-steps {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: rgba(240, 238, 228, 0.993);
+  border-radius: 3px;
+  padding: 3rem;
+  box-shadow: gray 1px 6px 10px;
+  margin-top: 5rem;
+
+
+}
+
+
+/* slideshow things */
+.slideshow-container {
+  max-width: 60%;
+  position: relative;
+  margin: auto;
+  border: solid 3px rgb(134, 134, 112);
+
+}
+.mySlides {
+  display: none;
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #5a1a1a;
+  font-weight: bold;
+  font-size: 30px;
+  transition: .6s ease;
+  border-radius: 0 3px 3px 0
+}
+.next {
+  right: -50px;
+  border-radius: 3px 3px 3px 3px
+}
+.prev {
+  left: -50px;
+  border-radius: 3px 3px 3px 3px
+}
+.prev:hover,
+.next:hover {
+  color: #f2f2f2;
+  background-color: rgba(153, 65, 65, 0.8)
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .6s ease
+}
+.active,
+.dot:hover {
+  background-color: #717171
+}
